@@ -1,1 +1,1 @@
-exec 3<>/dev/tcp/127.0.0.1/1234
+nc -l localhost 3000
